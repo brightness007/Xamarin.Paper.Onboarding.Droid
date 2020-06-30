@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Paper.Onboarding.Droid</id>
+    <version>1.1.3</version>
+    <title>$title$</title>
+    <authors>PaperOnboarding Authors, Peng ZHANG</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+	<projectUrl>https://github.com/brightness007/Xamarin.Paper.Onboarding.Droid</projectUrl>
+    <description>Xamarin.Android bindings for the PaperOnboarding Java library.</description>
+    <releaseNotes>Bindings to paper-onboarding-android 1.1.3</releaseNotes>
+    <tags>PaperOnboarding Xamarin Android Bindings</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.Paper.Onboarding.Droid.dll" target="lib\MonoAndroid9\Xamarin.Paper.Onboarding.Droid.dll" />
+  </files>
+</package>
